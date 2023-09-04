@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Task - From static HTML to a Vue Instance</title>
     <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/vue@next"></script>
   </head>
 
   <body>
@@ -25,8 +26,8 @@
       </section>
     </header>
     <main>
-      <div class="inside">
-        <div id="app" class="card">
+      <div id="app" class="inside">
+        <div class="card">
           <h2>Welcome back <strong>{{ userName }}</strong>!</h2>
           <p>
             You logged in on {{ new Date().toLocaleString('de-DE') }}<br />
@@ -36,7 +37,7 @@
       </div>
     </main>
 
-    <script src="https://unpkg.com/vue@next"></script>
+
     <script src="script.js"></script>
   </body>
 </html>
