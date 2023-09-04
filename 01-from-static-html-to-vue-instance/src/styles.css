@@ -1,0 +1,100 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+h2 {
+  color: #6a1cc3;
+}
+
+.header {
+  background-color: #6a1cc3;
+  color: #fff;
+  margin-bottom: 1.25rem;
+}
+
+.header__task-name {
+  font-size: 22.4px;
+}
+
+.header__section {
+  padding: .625rem .625rem;
+}
+
+.header__bootcamp-info-wrapper {
+  font-size: 16px;
+}
+
+.header__bootcamp-link {
+  background-color: #370b68;
+  color: #fff;
+  text-decoration: none;
+  display: none;
+  margin-left: 3.125rem;
+  padding: 0rem 1.25rem;
+}
+
+.inside {
+  margin: .625rem;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: #6a1cc3;
+  margin-bottom: .938rem;
+}
+
+main p {
+  line-height: 1.5;
+}
+
+@media only screen and (min-width: 71.25rem) {
+  .header {
+    font-size: 24px;
+    margin-bottom: 3.125rem;
+  }
+
+  .header__section {
+    display: flex;
+    padding: 0rem 1.25rem;
+    line-height: 2.5;
+  }
+
+  .header__bootcamp-info-wrapper {
+    margin-left: auto;
+    display: flex;
+    line-height: 3.4;
+  }
+
+  .header__task-name {
+    width: 50%;
+  }
+
+  .header__bootcamp-link {
+    display: block;
+  }
+
+  .inside {
+    width: 60rem;
+    margin: 0 auto;
+  }
+}
+
+/* Custom */
+
+.card {
+  font: 1rem Arial;
+  box-shadow: 0 .25rem .5rem 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  padding: .625rem;
+}
+
+.card h2 {
+  color: #6a1cc3;
+}
