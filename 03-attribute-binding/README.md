@@ -2,5 +2,5 @@
 
 Fulfill the following tasks:
 
-- [ ] Convert the headline data property into a valid id and set the ID to the `h1` element.
-- [ ] Bind the data property `imageAttrs` to the `img` tag.
+- [x] Convert the headline data property into a valid id and set the ID to the `h1` element.
+- [x] Bind the data property `imageAttrs` to the `img` tag.
