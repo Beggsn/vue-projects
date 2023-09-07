@@ -6,9 +6,9 @@ The task is about rendering a table of books that are provided by a data propert
 
 ## Fulfill the following tasks:
 
-- [ ] Generate the table head by getting the `keys` of one book.
+- [x] Generate the table head by getting the `keys` of one book.
   - Tipp: `Object.keys(books[0])`
-- [ ] Display all books in the table with the `v-for` directive
+- [x] Display all books in the table with the `v-for` directive
   - Don't forget to use the `key` directive
 
 ## Hint
