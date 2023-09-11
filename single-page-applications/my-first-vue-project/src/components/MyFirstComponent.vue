@@ -1,5 +1,6 @@
 <template>
-  <h1>Hallo Welt !</h1>
+  <h1>ich bin lokal eingebunden</h1>
+  <MySecondComponent />
 </template>
 
 <script>
