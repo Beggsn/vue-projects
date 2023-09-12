@@ -1,4 +1,13 @@
-# headers-and-booklist-component
+# Task: Header & Booklist Component
+
+Practicing the handling of single file components in Vue CLI projects.
+
+## Solve the following tasks:
+
+- [ ] Remove the HelloWorld component
+- [ ] Remove dummy stuff from App.vue
+- [ ] Create a Header Component
+- [ ] Create a BookList Component
 
 ## Project setup
 ```
