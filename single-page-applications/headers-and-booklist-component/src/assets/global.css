@@ -1,0 +1,165 @@
+:root {
+  --primary: #6a1cc3;
+  --primary-dark: #370b68;
+  --secondary: #f39c12;
+}
+
+body {
+  font-family: system-ui, -apple-system, Helvetica, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  color: var(--primary);
+  margin-bottom: 15px;
+}
+
+.inside {
+  margin: 10px;
+}
+
+/* HEADER STYLES */
+
+.header {
+  background-color: var(--primary);
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.header__task-name {
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.header__section {
+  padding: 10px 10px;
+}
+
+.header__bootcamp-info-wrapper {
+  font-size: 1rem;
+  margin: 0;
+}
+
+.header__bootcamp-link {
+  background-color: var(--primary);
+  color: #fff;
+  text-decoration: none;
+  display: none;
+  margin-left: 50px;
+  padding: 0px 20px;
+}
+
+.header__nav {
+  margin: 30px 0 10px 0px;
+}
+
+.header__nav-item {
+  color: #fff;
+  border-radius: 3px;
+  display: inline;
+  padding: 10px 10px;
+}
+
+.header__nav-item--active {
+  color: #fff;
+  background-color: var(--primary-dark);
+}
+
+/* BOOKLIST STYLES */
+
+.table-item__table {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  width: 100%;
+}
+.table-item__table-head-name {
+  width: 65%;
+}
+.table-item__table-head-isbn {
+  width: 20%;
+}
+.table-item__table-head-actions {
+  width: 15%;
+}
+.table-item__table-row button {
+  opacity: 0;
+  padding: 5px;
+  transition: opacity 500ms;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.table-item__table-row:hover button {
+  opacity: 1;
+}
+.table-item__table thead tr {
+  background-color: var(--primary);
+  color: #ffffff;
+  text-align: left;
+}
+.table-item__table th,
+.table-item__table td {
+  padding: 12px 15px;
+}
+.table-item__table tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+.table-item__table tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+.table-item__table tbody tr:last-of-type {
+  border-bottom: 2px solid var(--primary);
+}
+.table-item__table tbody tr.active-row {
+  font-weight: bold;
+  color: var(--primary);
+}
+.table-item__hl {
+  margin-top: 1rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid var(--primary-dark);
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (min-width: 1140px) {
+  .header {
+    font-size: 1.5rem;
+    margin-bottom: 50px;
+  }
+
+  .header__section {
+    display: flex;
+    padding: 0px 20px;
+    line-height: 2.5;
+  }
+
+  .header__bootcamp-info-wrapper {
+    margin-left: auto;
+    display: flex;
+    line-height: 3.4;
+  }
+
+  .header__task-name {
+    width: 50%;
+  }
+
+  .header__bootcamp-link {
+    display: block;
+  }
+
+  .header__nav {
+    margin: 0px;
+  }
+}
+
+@media only screen and (min-width: 1140px) {
+  .inside {
+    width: 960px;
+    margin: 0 auto;
+  }
+}
