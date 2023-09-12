@@ -8,14 +8,14 @@
 </template>
 
 <script>
-import BookList from "./components/BookList.vue";
 import LayoutHeader from "./components/LayoutHeader.vue";
+import BookList from "./components/BookList.vue";
 
 export default {
   name: "App",
   components: {
-    BookList,
     LayoutHeader,
+    BookList,
   },
 };
 </script>

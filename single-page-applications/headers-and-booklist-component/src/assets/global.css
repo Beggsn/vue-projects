@@ -123,6 +123,36 @@ h4 {
   border-bottom: 2px solid var(--primary-dark);
 }
 
+/* BUTTON STYLES */
+.btn {
+  border: 3px solid transparent;
+  border-radius: 3px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btn--primary {
+  border-color: var(--primary-dark);
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.btn--primary:hover {
+  border-color: var(--primary);
+  background-color: var(--primary-dark);
+}
+
+.btn--secondary {
+  border-color: var(--primary);
+  background-color: transparent;
+  color: var(--primary);
+}
+
+.btn--secondary:hover {
+  background-color: var(--primary);
+  color: #fff;
+}
+
 /* MEDIA QUERIES */
 
 @media only screen and (min-width: 1140px) {
