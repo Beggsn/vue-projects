@@ -24,7 +24,7 @@
         <div id="app" class="inside">
             <h1 :id="headline.replace(/\s/g, '-').toLowerCase()">{{ headline }}</h1>
             <p>
-                Direktiven sind spezielle Attribute mit dem Präfix <code>v-</code>. Werte von Direktiven-Attributen werden als <strong>ein einzelner JavaScript-Ausdruck</strong> erwartet (mit Ausnahme von <code>v-for</code> und <code>v-on</code>, die später besprochen werden). Die Aufgabe einer Direktive ist es, reaktiv Seiteneffekte auf das DOM anzuwenden, wenn sich der Wert des Ausdrucks ändert. Schauen wir uns das Beispiel aus der Einleitung an:
+                Directives are special attributes with the <code>v-</code> prefix. Values of directive attributes are expected to be <strong>a single JavaScript expression</strong> (except for <code>v-for</code> and <code>v-on</code>, which will be discussed later). The job of a directive is to reactively apply side effects to the DOM when the value of the expression changes. Let's look at the example from the introduction:
             </p>
             <img v-bind="imageAttrs" />
         </div>
