@@ -1,4 +1,5 @@
 <template>
+  <LayoutHeader />
   <main>
     <div id="app" class="inside">
       <BookList />
@@ -8,11 +9,13 @@
 
 <script>
 import BookList from "./components/BookList.vue";
+import LayoutHeader from "./components/LayoutHeader.vue";
 
 export default {
   name: "App",
   components: {
     BookList,
+    LayoutHeader,
   },
 };
 </script>
